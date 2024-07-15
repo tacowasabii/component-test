@@ -8,7 +8,7 @@ function UpperInput() {
   return (
     <div>
       <label htmlFor="upper">Upper</label>
-      <input id="upper" value={upper} onChange={handleChange} />
+      <input id="upper" alt="upper" value={upper} onChange={handleChange} />
     </div>
   );
 }
